@@ -55,7 +55,6 @@ def get_reviews_from_data_id(data_id, num_reviews=50):
             params['next_page_token'] = next_page_token
             
         try:
-            print(f"\nFetching reviews batch (attempt {attempts + 1})")
             response = requests.get(MAPS_REVIEWS_URL, params=params, timeout=15)
             response.raise_for_status()
             data = response.json()

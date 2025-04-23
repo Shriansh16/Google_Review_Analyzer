@@ -1,6 +1,6 @@
 import os
 from groq import Groq
-from test5 import *
+from review_fetcher import *
 from dotenv import load_dotenv
 load_dotenv()
 

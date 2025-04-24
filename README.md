@@ -4,8 +4,9 @@
 The Google Review Analyzer is an AI application that helps businesses and analysts extract meaningful insights from Google reviews. It provides sentiment analysis, identifies key themes, detects complaints, and visualizes review trends for any business listed on Google.
 
 ## Live Demo
-Access the deployed application here: https://businessreviewanalyzer.streamlit.app/    
-Access the demo video here: https://drive.google.com/file/d/10Q0yIvzNy_zUVh8zCm9ZLbVc0Jv0H3rm/view?usp=sharing                                                                                                                                        Short write-up: https://drive.google.com/file/d/1guwU2QyrapnVKm6uQpHLlc8a7v1WGeuX/view?usp=sharing                                                             
+- Access the deployed application here: https://businessreviewanalyzer.streamlit.app/    
+- Access the demo video here: https://drive.google.com/file/d/10Q0yIvzNy_zUVh8zCm9ZLbVc0Jv0H3rm/view?usp=sharing                     
+- Short write-up: https://drive.google.com/file/d/1guwU2QyrapnVKm6uQpHLlc8a7v1WGeuX/view?usp=sharing                                                             
 
 ## Features
 - Business Search: Find any business by name

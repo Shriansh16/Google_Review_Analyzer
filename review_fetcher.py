@@ -2,6 +2,7 @@ import requests
 import json
 import os
 from datetime import datetime
+import streamlit as st
 
 SERP_API_KEY = st.secrets["SERP_API_KEY"]
 MAPS_REVIEWS_URL = "https://serpapi.com/search"

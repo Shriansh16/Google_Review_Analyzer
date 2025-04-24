@@ -9,7 +9,7 @@ st.set_page_config(page_title="Google Review Analyzer", page_icon="🔍", layout
 st.title("🔍 Google Review Analyzer")
 st.markdown("Enter the full name of a business below to analyze its recent Google reviews 💬")
 
-business_name = st.text_input(placeholder="Type the business name here...")
+business_name = st.text_input("Business Name",placeholder="Type the business name here...")
 
 if st.button("Submit"):
     if business_name:

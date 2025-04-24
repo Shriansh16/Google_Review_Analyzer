@@ -1,8 +1,9 @@
 import requests
 import json
+import os
 from datetime import datetime
 
-SERP_API_KEY = os.getenv("SERP_API_KEY")
+SERP_API_KEY = st.secrets["SERP_API_KEY"]
 MAPS_REVIEWS_URL = "https://serpapi.com/search"
 MAPS_SEARCH_URL = "https://serpapi.com/search.json"
 

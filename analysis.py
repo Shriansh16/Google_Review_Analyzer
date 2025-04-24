@@ -1,12 +1,12 @@
 import os
 from groq import Groq
 from review_fetcher import *
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
 
 def find_theme(reviews):
     try:
-        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+        client = Groq(api_key=st.secrets["GROQ_API_KEY"])
         completion = client.chat.completions.create(
             model='llama3-70b-8192',
             messages=[
